@@ -770,7 +770,67 @@ DATABASES = {
             }
         },
     },
+        # --------------------------------------------------------
+    # SERVICE COMPARISONS
+    # --------------------------------------------------------
 
+    "Service Comparisons": {
+
+        "Comparison": {
+            "title": {}
+        },
+
+        "Category": {
+            "select": {
+                "options": [
+                    {
+                        "name": "Identity",
+                        "color": "blue"
+                    },
+                    {
+                        "name": "Governance",
+                        "color": "purple"
+                    },
+                    {
+                        "name": "Storage",
+                        "color": "green"
+                    },
+                    {
+                        "name": "Compute",
+                        "color": "orange"
+                    },
+                    {
+                        "name": "Networking",
+                        "color": "pink"
+                    },
+                    {
+                        "name": "Monitoring",
+                        "color": "yellow"
+                    },
+                    {
+                        "name": "Security",
+                        "color": "red"
+                    },
+                ]
+            }
+        },
+
+        "Services": {
+            "rich_text": {}
+        },
+
+        "Decision Question": {
+            "rich_text": {}
+        },
+
+        "Key Difference": {
+            "rich_text": {}
+        },
+
+        "Exam Trap": {
+            "rich_text": {}
+        },
+    },
 
     # --------------------------------------------------------
     # MS LEARN
@@ -864,6 +924,12 @@ RELATIONS = {
         "Labs": "Labs",
         "Mistakes": "Mistake Log",
         "Troubleshooting": "Troubleshooting",
+    },
+
+    "Service Comparisons": {
+        "Knowledge": "Knowledge",
+        "Services": "Services",
+        "Labs": "Labs",
     },
 
     "MS Learn": {
